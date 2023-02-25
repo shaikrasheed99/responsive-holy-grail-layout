@@ -86,3 +86,14 @@ footer {
         margin: 2vw;
     }
 }
+
+@media (max-width: 960px) {
+    nav, article, aside {
+        grid-column: span 3;
+    }
+
+    aside {
+        border: 0;
+        border-top: 1px solid;
+    }
+}
