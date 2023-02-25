@@ -66,3 +66,23 @@ footer {
     text-align: center;
     border-top: 1px solid;
 }
+
+/* responsive */
+
+@media (max-width: 1200px) {
+    nav {
+        grid-column: span 3;
+        border: 0;
+        border-bottom: 1px solid;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 1.4vw;
+    }
+
+    article {
+        grid-column: span 2;
+        margin: 2vw;
+    }
+}
